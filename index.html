@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Web Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Interactive Web Page</h1>
+    <p>This page demonstrates JavaScript event handling, interactivity, and form validation.</p>
+  </header>
+
+  <main>
+    <!-- Interactive Section 1 -->
+    <section>
+      <h2>Interactive Buttons</h2>
+      <p id="dynamicText">Click a button to change this text.</p>
+      <button id="changeTextBtn">Change Text</button>
+      <button id="toggleColorBtn">Toggle Color</button>
+    </section>
+
+    <!-- Interactive Section 2 -->
+    <section>
+      <h2>Number Generator</h2>
+      <button id="generateNumbersBtn">Generate Numbers</button>
+      <ul id="numberList"></ul>
+    </section>
+
+    <!-- Form Section -->
+    <section>
+      <h2>Contact Form</h2>
+      <form id="contactForm" novalidate>
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Enter your name">
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" placeholder="Enter your email">
+
+        <label for="message">Message:</label>
+        <textarea id="messageInput" placeholder="Type your message"></textarea>
+
+        <button type="submit">Submit</button>
+        <p id="formFeedback" class="error"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Interactive Project</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
